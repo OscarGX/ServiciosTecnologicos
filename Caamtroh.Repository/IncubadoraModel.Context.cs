@@ -13,10 +13,10 @@ namespace Caamtroh.Repository
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class CaamtrohDataBaseEntities : DbContext
+    public partial class IncubadoraDataBaseEntities : DbContext
     {
-        public CaamtrohDataBaseEntities()
-            : base("name=CaamtrohDataBaseEntities")
+        public IncubadoraDataBaseEntities()
+            : base("name=IncubadoraDataBaseEntities")
         {
         }
     
@@ -25,12 +25,12 @@ namespace Caamtroh.Repository
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<CatTest> CatTest { get; set; }
         public virtual DbSet<AspNetRoleClaims> AspNetRoleClaims { get; set; }
         public virtual DbSet<AspNetRoles> AspNetRoles { get; set; }
         public virtual DbSet<AspNetUserClaims> AspNetUserClaims { get; set; }
         public virtual DbSet<AspNetUserLogins> AspNetUserLogins { get; set; }
         public virtual DbSet<AspNetUsers> AspNetUsers { get; set; }
         public virtual DbSet<AspNetUserTokens> AspNetUserTokens { get; set; }
+        public virtual DbSet<Logs> Logs { get; set; }
     }
 }
