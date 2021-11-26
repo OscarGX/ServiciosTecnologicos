@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="68e14d7fa3f14ed29b450c7ebbac91ff" Name="Diagram1">
+        <EntityTypeShape EntityType="CaamtrohDataBaseModel.CatTest" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CaamtrohDataBaseModel.AspNetRoleClaims" Width="1.5" PointX="5.625" PointY="1.375" />
+        <EntityTypeShape EntityType="CaamtrohDataBaseModel.AspNetRoles" Width="1.5" PointX="2.75" PointY="3.625" />
+        <EntityTypeShape EntityType="CaamtrohDataBaseModel.AspNetUserClaims" Width="1.5" PointX="7.75" PointY="5.75" />
+        <EntityTypeShape EntityType="CaamtrohDataBaseModel.AspNetUserLogins" Width="1.5" PointX="7.75" PointY="3.375" />
+        <EntityTypeShape EntityType="CaamtrohDataBaseModel.AspNetUsers" Width="1.5" PointX="5.375" PointY="3.625" />
+        <EntityTypeShape EntityType="CaamtrohDataBaseModel.AspNetUserTokens" Width="1.5" PointX="2.625" PointY="6.25" />
+        <AssociationConnector Association="CaamtrohDataBaseModel.FK_AspNetRoleClaims_AspNetRoles_RoleId" />
+        <AssociationConnector Association="CaamtrohDataBaseModel.FK_AspNetUserClaims_AspNetUsers_UserId" />
+        <AssociationConnector Association="CaamtrohDataBaseModel.FK_AspNetUserLogins_AspNetUsers_UserId" />
+        <AssociationConnector Association="CaamtrohDataBaseModel.FK_AspNetUserTokens_AspNetUsers_UserId" />
+        <AssociationConnector Association="CaamtrohDataBaseModel.AspNetUserRoles" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
