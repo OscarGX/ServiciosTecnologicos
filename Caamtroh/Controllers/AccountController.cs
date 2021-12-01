@@ -9,6 +9,9 @@ namespace Caamtroh.Controllers
     public class AccountController : Controller
     {
         // GET: Account
-        
+        public ActionResult Create()
+        {
+            return View();
+        }
     }
 }

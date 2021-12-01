@@ -43,6 +43,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AspNetRolesBusiness.cs" />
+    <Compile Include="AspNetUsersBusiness.cs" />
+    <Compile Include="Interface\IAspNetUsersBusiness.cs" />
     <Compile Include="Interface\IAspNetRolesBusiness.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

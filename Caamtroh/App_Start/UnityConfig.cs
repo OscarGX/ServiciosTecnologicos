@@ -13,7 +13,7 @@ namespace Incubadora
 			var container = new UnityContainer();
 
             container.RegisterType<IAspNetRolesBusiness, AspNetRolesBusiness>();
-            
+            container.RegisterType<IAspNetUsersBusiness, AspNetUsersBusiness>();
             DependencyResolver.SetResolver(new UnityDependencyResolver(container));
         }
     }
