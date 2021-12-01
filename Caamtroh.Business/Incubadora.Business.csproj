@@ -42,14 +42,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AspNetRolesBusiness.cs" />
+    <Compile Include="Interface\IAspNetRolesBusiness.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Enum\" />
-    <Folder Include="Interface\" />
     <Folder Include="Recursos\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Caamtroh.Domain\Incubadora.Domain.csproj">
+      <Project>{2C683E2D-73D5-4B3C-8097-CA5C11E23309}</Project>
+      <Name>Incubadora.Domain</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Caamtroh.Repository\Incubadora.Repository.csproj">
       <Project>{AD4CF199-1E9A-4A54-A1A8-2D11CC35E28F}</Project>
       <Name>Incubadora.Repository</Name>
