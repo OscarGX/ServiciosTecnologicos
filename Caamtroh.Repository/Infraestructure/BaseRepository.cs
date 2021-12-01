@@ -1,17 +1,17 @@
-﻿using Caamtroh.Repository.Infraestructure.Contract;
+﻿
+using Incubadora.Repository.Infraestructure.Contract;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Caamtroh.Repository.Infraestructure
+namespace Incubadora.Repository.Infraestructure
 {
     public class BaseRepository<T> : IBaseRepository<T> where T : class
     {
         private readonly IUnitOfWork _unitOfWork;
+
         internal DbSet<T> dbSet;
 
         public BaseRepository(IUnitOfWork unitOfWork)

@@ -1,11 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Caamtroh.Repository.Infraestructure.Contract
+namespace Incubadora.Repository.Infraestructure.Contract
 {
     public interface IBaseRepository<T>
     {

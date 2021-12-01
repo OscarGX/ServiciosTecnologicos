@@ -1,7 +1,7 @@
-﻿using Caamtroh.Domain;
-using Caamtroh.ViewModels;
+﻿using Incubadora.Domain;
+using Incubadora.ViewModels;
 
-namespace Caamtroh.Infraestructure
+namespace Incubadora.Infraestructure
 {
     public class AutomaperWebProfile: AutoMapper.Profile
     {

@@ -1,12 +1,7 @@
-﻿using Caamtroh.Repository.Infraestructure.Contract;
-using System;
-using System.Collections.Generic;
+﻿using Incubadora.Repository.Infraestructure.Contract;
 using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Caamtroh.Repository.Infraestructure
+namespace Incubadora.Repository.Infraestructure
 {
     public class UnitOfWork : IUnitOfWork
     {
