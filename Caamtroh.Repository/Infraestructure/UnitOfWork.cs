@@ -10,11 +10,11 @@ namespace Caamtroh.Repository.Infraestructure
 {
     public class UnitOfWork : IUnitOfWork
     {
-        private readonly CaamtrohDataBaseEntities _dbContext;
+        private readonly IncubadoraDataBaseEntities _dbContext;
         
         public UnitOfWork()
         {
-            _dbContext = new CaamtrohDataBaseEntities();
+            _dbContext = new IncubadoraDataBaseEntities();
         }
 
         public DbContext Db

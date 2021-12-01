@@ -115,6 +115,7 @@
       <DependentUpon>IncubadoraModel.edmx</DependentUpon>
       <LastGenOutput>IncubadoraModel.Context.cs</LastGenOutput>
     </Content>
+    <Content Include="IncubadoraModel.edmx.sql" />
     <Content Include="IncubadoraModel.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>IncubadoraModel.edmx</DependentUpon>
