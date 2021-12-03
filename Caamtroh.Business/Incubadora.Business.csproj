@@ -7,8 +7,8 @@
     <ProjectGuid>{8F996619-5421-4FE4-B3F6-74E2D2939974}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Incubadora.Business</RootNamespace>
-    <AssemblyName>Incubadora.Business</AssemblyName>
+    <RootNamespace>Caamtroh.Business</RootNamespace>
+    <AssemblyName>Caamtroh.Business</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

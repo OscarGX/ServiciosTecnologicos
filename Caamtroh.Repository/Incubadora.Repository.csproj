@@ -8,8 +8,8 @@
     <ProjectGuid>{AD4CF199-1E9A-4A54-A1A8-2D11CC35E28F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Incubadora.Repository</RootNamespace>
-    <AssemblyName>Incubadora.Repository</AssemblyName>
+    <RootNamespace>Caamtroh.Repository</RootNamespace>
+    <AssemblyName>Caamtroh.Repository</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

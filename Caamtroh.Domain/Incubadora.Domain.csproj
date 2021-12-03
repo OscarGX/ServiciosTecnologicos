@@ -7,8 +7,8 @@
     <ProjectGuid>{2C683E2D-73D5-4B3C-8097-CA5C11E23309}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Incubadora.Domain</RootNamespace>
-    <AssemblyName>Incubadora.Domain</AssemblyName>
+    <RootNamespace>Caamtroh.Domain</RootNamespace>
+    <AssemblyName>Caamtroh.Domain</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Incubadora.Repository
+namespace Caamtroh.Repository
 {
     using System;
     using System.Collections.Generic;
